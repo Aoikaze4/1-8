@@ -3,3 +3,83 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.list {
+  padding: 50px 0;
+  margin: 0px auto;
+  width: 960px;
+  flex-wrap: wrap;
+  background-size: cover;
+  background-position: center;
+}
+
+.list-text {
+  padding: 20px 0 20px 20px;
+}
+
+.list-text:nth-child(odd) {
+  background-color: #acabab;
+}
+
+.list-box {
+  width: 960px;
+  padding-bottom: 50px;
+}
+
+.list-box {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  background-size: cover;
+  justify-content: flex-start;
+}
+
+.box {
+  flex-wrap: wrap;
+  height: 200px;
+  width: 30%;
+  margin-bottom: 40px;
+}
+
+.box:nth-child(1) {
+  background-color: orange;
+  margin-right: 5%;
+}
+
+.box:nth-child(2) {
+  background-color: yellow;
+}
+
+.box:nth-child(3) {
+  background-color: yellow;
+  margin-left: 5%;
+}
+
+.box:nth-child(4) {
+  background-color: yellow;
+  margin-right: 5%;
+}
+
+.box:nth-child(5) {
+  background-color: orange;
+}
+
+.box:nth-child(6) {
+  background-color: yellow;
+  margin-left: 5%;
+}
+
+.box:nth-child(7) {
+  background-color: yellow;
+  margin-right: 5%;
+}
+
+.box:nth-child(8) {
+  background-color: yellow;
+}
+
+.box:nth-child(9) {
+  background-color: orange;
+  margin-left: 5%;
+}
